@@ -1,0 +1,9 @@
+public class AH01 {
+
+    // returns the largest factor less than itself (n)
+    // eg:  100 ===> 50;  12 ===> 6;  17 ===> 1;  35 ===> 7
+    static public int largestFactor(int n) {
+        return 0; 
+    }
+
+}
