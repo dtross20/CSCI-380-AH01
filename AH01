@@ -2,8 +2,27 @@ public class AH01 {
 
     // returns the largest factor less than itself (n)
     // eg:  100 ===> 50;  12 ===> 6;  17 ===> 1;  35 ===> 7
+
+
     static public int largestFactor(int n) {
-        return 0; 
+
+        int n = 620;
+        largestFactor(num);
     }
 
-}
+
+
+    static void largestFactor(int num){
+
+        for( int i = 1,  i <= (num/2); i ++)
+        {
+            if(num % i == 0)
+            {
+                System.out.println( i + " ");
+            }
+        }
+
+        System.out.println(num);
+        }
+        return 0;
+    }
